@@ -5,8 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class FitSMSTest {
 
-    private final String apiToken = "255|KWR6XFdZND5Hq1gt1DQOwc8NQGtoe2X0Q2cpct7X";
-    private final String senderId = "The Change";
+    private final String apiToken = "YOUR_API_TOKEN_HERE";
+    private final String senderId = "YOUR_SENDER_ID_HERE";
+    private final String recipientNumber = "947XXXXXXX";
 
     @Test
     public void testSmsSend() {
@@ -14,7 +15,7 @@ public class FitSMSTest {
         FitSMS sdk = new FitSMS(apiToken, senderId);
 
         try {
-            String response = sdk.send("0761695904", "Hello from Java SDK", "plain");
+            String response = sdk.send(recipientNumber, "Hello from Java SDK", "plain");
 
             System.out.println("Response: " + response);
 

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="globalcloudmedia.fitsms.FitSMSTest" time="4.445" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="globalcloudmedia.fitsms.FitSMSTest" time="4.791" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\xampp1\htdocs\Me\fitsms-java-sdk\target\test-classes;C:\xampp1\htdocs\Me\fitsms-java-sdk\target\classes;C:\Users\Asus\.m2\repository\com\squareup\okhttp3\okhttp\4.12.0\okhttp-4.12.0.jar;C:\Users\Asus\.m2\repository\com\squareup\okio\okio\3.6.0\okio-3.6.0.jar;C:\Users\Asus\.m2\repository\com\squareup\okio\okio-jvm\3.6.0\okio-jvm-3.6.0.jar;C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.10\kotlin-stdlib-common-1.9.10.jar;C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.8.21\kotlin-stdlib-jdk8-1.8.21.jar;C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.21\kotlin-stdlib-1.8.21.jar;C:\Users\Asus\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.8.21\kotlin-stdlib-jdk7-1.8.21.jar;C:\Users\Asus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Asus\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Asus\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Asus\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Asus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="gpg.passphrase" value="dd_gcm_fitsms_java_sdk"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire15901517441402453660\surefirebooter-20260329151542650_3.jar C:\Users\Asus\AppData\Local\Temp\surefire15901517441402453660 2026-03-29T15-15-42_531-jvmRun1 surefire-20260329151542650_1tmp surefire_0-20260329151542650_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire4011396856479781345\surefirebooter-20260329230819755_3.jar C:\Users\Asus\AppData\Local\Temp\surefire4011396856479781345 2026-03-29T23-08-19_645-jvmRun1 surefire-20260329230819755_1tmp surefire_0-20260329230819755_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\xampp1\htdocs\Me\fitsms-java-sdk\target\test-classes;C:\xampp1\htdocs\Me\fitsms-java-sdk\target\classes;C:\Users\Asus\.m2\repository\com\squareup\okhttp3\okhttp\4.12.0\okhttp-4.12.0.jar;C:\Users\Asus\.m2\repository\com\squareup\okio\okio\3.6.0\okio-3.6.0.jar;C:\Users\Asus\.m2\repository\com\squareup\okio\okio-jvm\3.6.0\okio-jvm-3.6.0.jar;C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.10\kotlin-stdlib-common-1.9.10.jar;C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.8.21\kotlin-stdlib-jdk8-1.8.21.jar;C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.21\kotlin-stdlib-1.8.21.jar;C:\Users\Asus\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.8.21\kotlin-stdlib-jdk7-1.8.21.jar;C:\Users\Asus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Asus\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Asus\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Asus\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Asus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire15901517441402453660\surefirebooter-20260329151542650_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire4011396856479781345\surefirebooter-20260329230819755_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -55,16 +56,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testProfileCheck" classname="globalcloudmedia.fitsms.FitSMSTest" time="1.508">
-    <system-out><![CDATA[Profile: {"status":"success","message":null,"data":{"uid":"68502a319084c","api_token":"255|KWR6XFdZND5Hq1gt1DQOwc8NQGtoe2X0Q2cpct7X","first_name":"Dilanka","last_name":"LK","email":"dilanka.rajapakshe1@gmail.com","locale":"en","timezone":"Asia\/Colombo"}}
+  <testcase name="testProfileCheck" classname="globalcloudmedia.fitsms.FitSMSTest" time="1.613">
+    <system-out><![CDATA[Profile: {"status":"error","message":"Unauthenticated."}
 ]]></system-out>
   </testcase>
-  <testcase name="testBalanceCheck" classname="globalcloudmedia.fitsms.FitSMSTest" time="1.247">
-    <system-out><![CDATA[Balance: {"status":"success","message":null,"data":{"remaining_balance":"LKR 147.54","expired_on":"2030-06-20, 8:35 AM"}}
+  <testcase name="testBalanceCheck" classname="globalcloudmedia.fitsms.FitSMSTest" time="1.515">
+    <system-out><![CDATA[Balance: {"status":"error","message":"Unauthenticated."}
 ]]></system-out>
   </testcase>
-  <testcase name="testSmsSend" classname="globalcloudmedia.fitsms.FitSMSTest" time="1.662">
-    <system-out><![CDATA[Response: {"status":"success","message":"SMS is being sent","data":{"ruid":"22a3defc1d6c4c92b1b0bb7cfd4e6896","total_receivers":1,"to":"94761695904","message":"Hello from Java SDK","sms_type":"plain","status":"pending","from":"The Change","send_by":"api","created_at":"2026-03-29 15:15:47","expired_at":"2026-03-30 15:15:47"}}
+  <testcase name="testSmsSend" classname="globalcloudmedia.fitsms.FitSMSTest" time="1.646">
+    <system-out><![CDATA[Response: {"status":"error","message":"Unauthenticated."}
 ]]></system-out>
   </testcase>
 </testsuite>

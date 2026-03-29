@@ -1,4 +1,5 @@
 # FitSMS Java SDK (v4)
+[![Maven Central](https://img.shields.io/maven-central/v/lk.globalcloudmedia/fitsms.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/lk.globalcloudmedia/fitsms)
 
 The official Java SDK for the [FitSMS.lk](https://fitsms.lk) gateway, maintained by Global Cloud Media. This package provides a high-performance, industrial-grade way to integrate SMS capabilities into Java applications, Android apps, and automated server-side tasks.
 

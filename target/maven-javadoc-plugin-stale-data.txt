@@ -1,0 +1,60 @@
+@options
+@packages
+-classpath
+'C:/Users/Asus/.m2/repository/com/squareup/okhttp3/okhttp/4.12.0/okhttp-4.12.0.jar;C:/Users/Asus/.m2/repository/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar;C:/Users/Asus/.m2/repository/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar;C:/Users/Asus/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar;C:/Users/Asus/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar;C:/Users/Asus/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.jar;C:/Users/Asus/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar;C:/Users/Asus/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar;C:/Users/Asus/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar;C:/Users/Asus/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'15'
+-sourcepath
+'C:/xampp1/htdocs/Me/fitsms-java-sdk/src/main/java;C:/xampp1/htdocs/Me/fitsms-java-sdk/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2026 <a href="https://globalcloudmedia.lk">Global Cloud Media Pvt Ltd</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/xampp1/htdocs/Me/fitsms-java-sdk/target/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'FitSMS-Java-SDK 1.0.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/15/docs/api' 'C:/xampp1/htdocs/Me/fitsms-java-sdk/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'FitSMS-Java-SDK 1.0.0 API'
+globalcloudmedia.fitsms
+C:\Users\Asus\.m2\repository\com\squareup\okhttp3\okhttp\4.12.0\okhttp-4.12.0.jar = 1774774400525
+C:\Users\Asus\.m2\repository\com\squareup\okio\okio\3.6.0\okio-3.6.0.jar = 1774774401047
+C:\Users\Asus\.m2\repository\com\squareup\okio\okio-jvm\3.6.0\okio-jvm-3.6.0.jar = 1774774404758
+C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.10\kotlin-stdlib-common-1.9.10.jar = 1774774404287
+C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.8.21\kotlin-stdlib-jdk8-1.8.21.jar = 1774774400706
+C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.21\kotlin-stdlib-1.8.21.jar = 1774774406142
+C:\Users\Asus\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar = 1774774402524
+C:\Users\Asus\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.8.21\kotlin-stdlib-jdk7-1.8.21.jar = 1774774403412
+C:\Users\Asus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar = 1774774405616
+C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar = 1774767423521
+C:\xampp1\htdocs\Me\fitsms-java-sdk\src\main\java = 1774774142753
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\generated-sources\annotations = 1774805899037
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\allclasses-index.html = 1774805906790
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\allpackages-index.html = 1774805906795
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\constant-values.html = 1774805906741
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\deprecated-list.html = 1774805906767
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\element-list = 1774805906714
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\help-doc.html = 1774805906804
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\index-all.html = 1774805906785
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\index.html = 1774805906799
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\jquery-ui.overrides.css = 1774805906832
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\member-search-index.js = 1774805906785
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\module-search-index.js = 1774805906782
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\overview-tree.html = 1774805906759
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\package-search-index.js = 1774805906783
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\script.js = 1774805906808
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\search.js = 1774805906812
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\stylesheet.css = 1774805906808
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\tag-search-index.js = 1774805906785
+C:\xampp1\htdocs\Me\fitsms-java-sdk\target\apidocs\type-search-index.js = 1774805906785
