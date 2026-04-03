@@ -6,7 +6,7 @@
 
     <groupId>lk.globalcloudmedia</groupId>
     <artifactId>fitsms</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>FitSMS-Java-SDK</name>
     <description>Official Java SDK for the FitSMS.lk v4 Gateway by Global Cloud Media.</description>

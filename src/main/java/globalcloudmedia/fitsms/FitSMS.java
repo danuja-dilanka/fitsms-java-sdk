@@ -68,4 +68,9 @@ public class FitSMS {
     public String getProfile() throws IOException {
         return executeRequest("/me", "GET", null);
     }
+
+    public void close() {
+        this.client.dispatcher().executorService().shutdown();
+        this.client.connectionPool().evictAll();
+    }
 }
